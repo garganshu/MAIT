@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.MAIT">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permissions.NETWORK_ACCESS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:parentActivityName=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.MAIT.splash" />
+        </activity>
+        <activity android:name=".contact" />
+        <activity android:name=".about" />
+        <activity android:name=".help" />
+        <activity android:name=".feedback" />
+        <activity android:name=".feedback2" />
+        <activity android:name=".login" />
+        <activity android:name=".noti" />
+        <activity android:name=".sylla" />
+        <activity android:name=".result" />
+        <activity android:name=".location1" />
+        <activity android:name=".yearlybooks" />
+        <activity android:name=".firsts" />
+        <activity android:name=".cse1" />
+        <activity android:name=".seconds" />
+        <activity android:name=".cse2" />
+        <activity android:name=".thirds" />
+        <activity android:name=".cse3" />
+        <activity android:name=".fourths" />
+        <activity android:name=".cse4" />
+        <activity android:name=".it4" />
+        <activity android:name=".fifths" />
+        <activity android:name=".cse5" />
+        <activity android:name=".it5" />
+        <activity android:name=".sixths" />
+        <activity android:name=".cse6" />
+        <activity android:name=".it6" />
+        <activity android:name=".sevenths" />
+        <activity android:name=".cse7" />
+        <activity android:name=".it7" />
+        <activity android:name=".eights" />
+        <activity android:name=".cse8" />
+        <activity android:name=".csesy" />
+        <activity android:name=".itsy" />
+        <activity android:name=".maesy" />
+        <activity android:name=".eeesy" />
+        <activity android:name=".ecesy" />
+        <activity android:name=".first" />
+        <activity android:name=".csl" />
+        <activity android:name=".il" />
+        <activity android:name=".ecl" />
+        <activity android:name=".eel" />
+        <activity android:name=".mal"></activity>
+    </application>
+
+</manifest>

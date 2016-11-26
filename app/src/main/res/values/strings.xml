@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">"MAIT "</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app">APPLICATON DEVELOPERS</string>
+    <string name="developer">Anshul Garg - IT Student (M.A.I.T)\nEmail - garganshu96@gmail.com</string>
+    <string name="developer2">Tarun Anand - IT Student (M.A.I.T)\nEmail - tarunanand1740@gmail.com</string>
+    <string name="mait">Maharaja Agrasen Institute of Technology (MAIT) runs Bachelor of Engineering (Computer Science and Engineering , Electronics and Communication Engineering, Electriacl and Electronics Engineering, Information Technology and Mechanical and Automation Engineering) and Master of Business Administration. These programmes are affiliated to Guru Gobind Singh Indraprastha  University, Delhi.Maharaja Agrasen Institute of Technology is established by Maharaja Agrasen Technical Education Society promoted by a group of well known Industrialists, Businessman, Professionals and Philanthropists with an aim to promote quality education in the field of Technology. In its short span of existence MAIT has touched a high standard of excellence through its well equipped laboratory with a high degree of Hardware - Software Symbiosis and continued stress on hardware based Engineering education supplemented with the software application specially designed for the particular branch of engineering . Each and every laboratory and facility in the Institute is well equipped with the latest computing tools. Presently more than Nine hundred budding engineers are on the of the Institute.MAIT endeavors to provide industry relevant education and training to its well-crafted practical training programs for the student in different semesters of the course. The students moving to the second and third year are provided with in-house training  facilities in many fields.Also the students moving to the final year are being trained at the real workplace , i.e. factories, industries installations and R and D centers etc.In order to achieve its goals MAIT is eager to build lasting relations with the industry, therefore , the industries are cordially invited to join hands in fueling the social responsibility of imparting industry relevant technical education and training!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="notice">NOTICEBOARD</string>
+
+
+</resources>

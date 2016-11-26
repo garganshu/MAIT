@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="in.MAIT.navigation"
+    tools:showIn="@layout/app_bar_navigation"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/back"
+    android:layout_margin="5dp">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="NOTICES GGSPIU"
+        android:textColor="@color/text"
+        android:layout_marginTop="50dp"
+        android:onClick="notice"
+        android:background="@color/black"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="Syllabus"
+            android:layout_marginTop="30dp"
+            android:onClick="syllabus"
+            android:textColor="@color/text"
+            android:background="@color/black"
+            android:layout_marginRight="5dp"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="BOOKS"
+            android:layout_marginTop="30dp"
+            android:onClick="books"
+            android:textColor="@color/text"
+            android:background="@color/black"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Result"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:onClick="resul"
+        android:textColor="@color/text"
+        android:background="@color/black"
+        />
+
+</LinearLayout>
