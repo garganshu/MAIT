@@ -46,7 +46,7 @@ public class result extends Activity {
         pd.show();
 
         web.setWebViewClient(new myWebClient());
-        web.loadUrl("http://ipuresult.com");
+        web.loadUrl("https://www.mycampusnotes.com/ipu-result/");
 
 
     }

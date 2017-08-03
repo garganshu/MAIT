@@ -44,7 +44,7 @@ public class location1 extends Activity {
 
 
         web.setWebViewClient(new myWebClient());
-        web.loadUrl("https://www.google.co.in/maps/place/Maharaja+Agrasen+Institute+of+Technology/@28.7196143,77.0639976,17z/data=!3m1!4b1!4m5!3m4!1s0x390d068dbf44ecd7:0xc4ce5551f8ac8360!8m2!3d28.7196143!4d77.0661863");
+        web.loadUrl("https://www.google.com/maps/place/Maharaja+Surajmal+Institute+Of+Technology/@28.6210152,77.0904318,17z/data=!3m1!4b1!4m5!3m4!1s0x390d04afb92411e1:0x4e1668296e0c2f09!8m2!3d28.6210152!4d77.0926258");
 
 
 
